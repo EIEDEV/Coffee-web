@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "christian-kohler.path-intellisense",
+    "burkeholland.simple-react-snippets",
+    "github.copilot",
+    "ms-vscode.mono-debug",
+    "stringham.move-ts",
+    "antfu.vite"
+  ]
+}

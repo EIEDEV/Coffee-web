@@ -1,0 +1,39 @@
+#service{
+    background:  rgb(48, 23, 21);
+}
+
+.service__container{
+    text-align: center;
+}
+
+.service__container h2{
+    margin-bottom: 3rem;
+}
+.service__menu{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 40% 40%;
+    gap: 17%;
+}
+.service__card{
+    padding: 3rem;
+    background-color: #DBBCAD;
+    border-radius: 2rem;
+}
+.service__card h3{
+    font-size: 5rem;
+}
+.service__card h5{
+    margin: 1rem 0;
+    font-size: 1.4rem;
+}
+.service__card p{
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:600px) {
+    .service__menu{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}

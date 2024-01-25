@@ -1,0 +1,60 @@
+nav{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(0,0,0,0.9)  60%, rgba(0,0,0,0.5)),
+    url('../../assets/IMG-20230910-WA0011.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.nav__container{
+    display: flex;
+    gap: 8rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar__logo {
+    display: flex;
+    align-items: center;
+    margin: 0.8rem 0 0 0;
+    text-align: center;
+    gap: 0.9rem;
+}
+
+.navbar__logo a{
+    font-size: 2rem;
+    color: white;
+    display: flex;
+}
+.navbar__logo h3{
+    color: white;
+}
+
+.nav__container ul{
+    background-color: #6e4436;
+    display: flex;
+    gap: 4.5rem;
+    padding: 0.8rem 2rem;
+    margin: 0.8rem 0 0 0;
+    border-radius: 0.9rem;
+}
+
+.nav__container ul li a{
+    color: white;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav__container ul{
+        display: none;
+    }
+    .navbar__logo{
+        width: 80%;
+    }
+    nav{
+        width: 100%;
+    }
+}

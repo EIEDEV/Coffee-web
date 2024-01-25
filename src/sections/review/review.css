@@ -1,0 +1,55 @@
+#review{
+    background-color: #655546;
+}
+
+#review h2{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#review>p{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.review__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.review__card{
+    padding: 1rem 2rem;
+    background-color: rgba(219, 188, 160, 0.9);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.review__card p{
+    color: black;
+    font-size: 1rem;
+}
+
+.review__card big{
+    color: darkblue;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    .review__container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .review__container {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            width: 80%;
+        }
+}
